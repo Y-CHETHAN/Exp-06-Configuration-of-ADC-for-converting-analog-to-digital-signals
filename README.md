@@ -300,8 +300,6 @@ int main()
 |   9   |        9       |    100    |
 |   10  |       10       |     0     |
 
-<br><br><br><br><br><br><br><br><br><br><br>
-
 ![image](https://user-images.githubusercontent.com/36288975/198947184-dbccf4b1-10a1-4090-a670-93526ed6e597.png)
 
 Figure -09 graph between % of pot(1Kohm) values and ADC 

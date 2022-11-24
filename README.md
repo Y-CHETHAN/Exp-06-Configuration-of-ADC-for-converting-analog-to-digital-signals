@@ -284,19 +284,20 @@ int main()
 	}
 }
 ```
-## Tabulations and graph 
-| SL NO | % OF POT VALUE | ADC VALUE |
+## Tabulations and graph:
+
+| S. No | % OF POT VALUE | ADC VALUE |
 | ----- | -------------- | --------- |
-|   1  	|                |           |
+|   1   |                |           |
 |   2   |                |           |
 |   3   |                |           |
 |   4   |                |           |
 |   5   |                |           |
-|   6	|                |           |
-|   7	|                |           |
-|   8	|                |           |
-|   9	|                |           |
-|  10	|                |           |
+|   6   |                |           |
+|   7   |                |           |
+|   8   |                |           |
+|   9   |                |           |
+|   10  |                |           |
 
 ![image](https://user-images.githubusercontent.com/36288975/198947184-dbccf4b1-10a1-4090-a670-93526ed6e597.png)
 

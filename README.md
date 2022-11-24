@@ -26,7 +26,7 @@ Let’s see the ADC registers which are used to control and monitors the ADC ope
 Here, we will see ADC0 registers and their configurations. ADC1 has similar registers and can be configured in a similar manner.
 
 ## ADC0 Registers 
-1.  AD0CR (ADC0 Control Register)
+#### 1.  AD0CR (ADC0 Control Register)
 
 *	AD0CR is a 32-bit register.
 
@@ -116,7 +116,7 @@ This bit is significant only when the Start field contains 010-111. In these cas
 
 *	Bit 31:28 – RESERVED
 
-2.  AD0GDR (ADC0 Global Data Register)
+#### 2.  AD0GDR (ADC0 Global Data Register)
 
 *	AD0GDR is a 32-bit register.
 
@@ -152,7 +152,7 @@ This bit is set to 1 when an A/D conversion completes. It is cleared when this r
 
 If AD0CR is written while a conversion is still in progress, this bit is set and new conversion is started.
  
-3.  ADGSR (A/D Global Start Register)
+#### 3.  ADGSR (A/D Global Start Register)
 
 *	ADGSR is a 32-bit register.
 
@@ -164,7 +164,7 @@ Figure-04 ADGSR (A/D Global Start Register)
 
 These bits have same function as in the individual ADC control registers i.e. AD0CR & AD1CR. Only difference is that we can use these function for both ADC commonly from this register.
  
-4.  AD0STAT (ADC0 Status Register)
+#### 4.  AD0STAT (ADC0 Status Register)
 
 *	AD0STAT is a 32-bit register.
 
@@ -186,7 +186,7 @@ This bit is 1 when any of the individual A/D channel DONE flags is asserted and 
 
 *	Bit 31:17 – RESERVED
  
-5.  AD0INTEN (ADC0 Interrupt Enable)
+#### 5.  AD0INTEN (ADC0 Interrupt Enable)
 
 *	AD0INTEN is a 32-bit register.
 
@@ -208,7 +208,7 @@ Figure-06 AD0INTEN (ADC0 Interrupt Enable)
 
 1 = Only the global DONE flag in A/D Data Register is enabled to generate an interrupt
 
-6.  AD0DR0-AD0DR7 (ADC0 Data Registers)
+#### 6.  AD0DR0-AD0DR7 (ADC0 Data Registers)
 
 *	These are 32-bit registers.
 

@@ -6,7 +6,7 @@ To configure internal ADC for LPC2148 ARM 7 and write a code for displaying the 
 Proteus ISIS professional suite, Kiel μ vision 5 Development environment 
 ## Theory:
 Analog to Digital Converter (ADC) is used to convert analog signal into digital form. LPC2148 has two inbuilt 10-bit ADC i.e. ADC0 & ADC1.
-* ADC0 has 6 channels &ADC1 has 8 channels.
+* ADC0 has 6 channels & ADC1 has 8 channels.
 * Hence, we can connect 6 distinct types of input analog signals to ADC0 and 8 distinct types of input analog signals to ADC1.
 * ADCs in LPC2148 use Successive Approximation technique to convert analog signal into digital form.
 * This Successive Approximation process requires a clock less than or equal to 4.5 MHz. We can adjust this clock using clock divider settings.

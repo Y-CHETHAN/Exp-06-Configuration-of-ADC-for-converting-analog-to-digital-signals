@@ -286,6 +286,7 @@ int main()
 	}
 }
 ```
+
 ## Tabulations and graph:
 
 | S. No | % OF POT VALUE | ADC VALUE |

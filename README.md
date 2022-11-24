@@ -12,6 +12,7 @@ Analog to Digital Converter (ADC) is used to convert analog signal into digital 
 *	This Successive Approximation process requires a clock less than or equal to 4.5 MHz. We can adjust this clock using clock divider settings.
 *	Both ADCs in LCP2148 convert analog signals in the range of 0V to VREF (typically 3V; not to exceed VDDA voltage level).
 ![image](https://user-images.githubusercontent.com/36288975/198947663-2d75f694-880a-4bc0-be67-8c2d4125fdb6.png)
+
 Figure-01 ADC pins in LPC2148 ARM 7 controller
 #### AD0.1:4, AD0.6:7 & AD1.7:0 (Analog Inputs)
 These are Analog input pins of ADC. If ADC is used, signal level on analog pins must not be above the level of VDDA; otherwise, ADC readings will be invalid. If ADC is not used, then the pins can be used as 5V tolerant digital I/O pins.

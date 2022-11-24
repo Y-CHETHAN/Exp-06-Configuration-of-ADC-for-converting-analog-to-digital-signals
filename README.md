@@ -288,22 +288,27 @@ int main()
 
 | S. No | % OF POT VALUE | ADC VALUE |
 | ----- | -------------- | --------- |
-|   1   |                |           |
-|   2   |                |           |
-|   3   |                |           |
-|   4   |                |           |
-|   5   |                |           |
-|   6   |                |           |
-|   7   |                |           |
-|   8   |                |           |
-|   9   |                |           |
-|   10  |                |           |
+|   1   |        1       |    900    |
+|   2   |        2       |    800    |
+|   3   |        3       |    700    |
+|   4   |        4       |    600    |
+|   5   |        5       |    500    |
+|   6   |        6       |    400    |
+|   7   |        7       |    300    |
+|   8   |        8       |    200    |
+|   9   |        9       |    100    |
+|   10  |       10       |     0     |
 
 ![image](https://user-images.githubusercontent.com/36288975/198947184-dbccf4b1-10a1-4090-a670-93526ed6e597.png)
 
 Figure -09 graph between % of pot(1Kohm) values and ADC 
 
 ## Output:
+
+<img width="1515" alt="Experiment 6" src="https://user-images.githubusercontent.com/75234991/203823273-ec5a4cab-aa93-4481-aa15-4b53f28e6b23.png">
+
+### Circuit Diagram:
+<img width="1515" alt="Experiment 6" src="https://user-images.githubusercontent.com/75234991/203823487-34035d0e-4d00-4b5c-83ea-639c211ef4db.png">
 
 ## Result:
 Thus, configuring an ADC and the input values are displayed on LCD screen.
